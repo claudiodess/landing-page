@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.prima-img {
+    width: 300px;
+}
+
+.sequence-img {
+    width: 150px;
+}
