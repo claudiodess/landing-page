@@ -3,9 +3,77 @@ body {
     flex-direction: column;
 }
 
+/* style header e footer*/
+
 .prima-img {
-    width: 300px;
+ height: 200px;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.bluscuro {
+    flex-direction: column;
+    padding: 0 200px 0 200px;
+
+}
+
+.header,
+.footer,
+.bluscuro {
+    background: #1f2937;
+    display: flex;
+    color: #f9faf8;
+}
+
+.footer {
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    justify-content: space-between;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-first {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 25px;
+}
+
+/* style header e footer*/
 
 .sequence-img {
     width: 150px;
