@@ -71,6 +71,8 @@ ul {
     border-color: #3882f6;
     color: #e5e7eb;
     padding: 5px 25px;
+    border-style: solid;
+
 }
 
 /* style "bianco" section*/
@@ -143,3 +145,45 @@ ul {
 }
 
 /* style "call to action" section */
+
+.over-azzurro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azzurro {
+    width: 1200px;
+    height: 120px;
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.over-action {
+    display: flex;    
+    flex-direction: column;
+    flex: 1;
+    margin-left: 100px;
+}
+
+.sign-up-second {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    color: white;
+    padding: 5px 25px;
+    border-style: solid;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: bold;
+}
