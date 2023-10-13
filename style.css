@@ -89,9 +89,10 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 70px;
+    margin-bottom: 50px;
 }
 
-.subcontainer {
+.sub-bianco {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,3 +115,31 @@ ul {
 }
     
 /* style "gray" section */
+
+.grigio {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.sub-grigio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    width: 850px;
+}
+
+.autore {
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* style "call to action" section */
